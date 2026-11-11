@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Auction System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Online Auction System</h1>
+        <p>Buy and Sell Products Online</p>
+    </header>
+
+    <h2>Available Products</h2>
+
+    <div class="container">
+
+        <div class="product">
+            <h3>Laptop</h3>
+            <p>Starting Price: ₹25000</p>
+            <input type="number" id="bid1" placeholder="Enter bid">
+            <button onclick="placeBid(1,25000)">Place Bid</button>
+            <p id="result1"></p>
+        </div>
+
+        <div class="product">
+            <h3>Mobile</h3>
+            <p>Starting Price: ₹10000</p>
+            <input type="number" id="bid2" placeholder="Enter bid">
+            <button onclick="placeBid(2,10000)">Place Bid</button>
+            <p id="result2"></p>
+        </div>
+
+        <div class="product">
+            <h3>Camera</h3>
+            <p>Starting Price: ₹15000</p>
+            <input type="number" id="bid3" placeholder="Enter bid">
+            <button onclick="placeBid(3,15000)">Place Bid</button>
+            <p id="result3"></p>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
